@@ -6,6 +6,18 @@ body {
     font-size: 42px;
     background: #202124;
 }
+.column {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+    color: white;
+  }  
+  /* Clear floats after the columns */
+  .row {
+    display: table;
+  }
 form {
     display: grid;
     grid-template-columns: auto;
@@ -34,6 +46,7 @@ h1 {
     margin: 12px 420px 0 420px;
     height: 36px;
     min-width: 54px;
+    float: centre;
     text-align: center;
     cursor: pointer;
 }
